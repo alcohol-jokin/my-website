@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>テストページ</title>
-    <link rel="stylesheet" href="style.css">
+    <title>案件管理テスト</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, Vercel!</h1>
-        <p>これはテスト用ページです。</p>
-        <button id="testButton">ここをクリック</button>
-        <p id="message"></p>
-    </div>
-    <script src="script.js"></script>
+    <h1>案件一覧</h1>
+    <ul id="projectList"></ul>
+
+    <script src="app.js"></script>
 </body>
 </html>
